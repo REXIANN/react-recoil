@@ -10,6 +10,8 @@ import {
   useRecoilValue,
 } from 'recoil';
 
+import CharacterCounter from './components/CharacterCounter'
+
 function App() {
   return (
     <RecoilRoot>
@@ -27,6 +29,7 @@ function App() {
           >
             Learn React
           </a>
+          <CharacterCounter />
         </header>
       </div>
     </RecoilRoot>
